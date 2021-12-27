@@ -58,7 +58,7 @@
    &kp Q      &kp W      &kp F       &kp P       &kp B   &kp J &kp L        &kp U         &kp Y        &kp SINGLE_QUOTE
    &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RCTRL E   &hm RALT I   &hm RGUI O
    &kp Z      &kp X      &kp C       &kp D       &kp V   &kp K &kp H        &kp COMMA     &kp DOT      &kp FSLH
-                      &kp ESC &lt 1 TAB &lt 1 SPACE         &lt 2 BSPC &lt 2 RET &kp RALT
+                      &kp ESC &lt 1 TAB &lt 1 SPACE         &lt 2 BSPC  &lt 2 RET  &kp RALT
                         >;
                 };
                 nav_layer {
@@ -69,7 +69,7 @@
 //             |     |      |     |   |     |      |      |
                         bindings = <
    &kp EXCL      &kp AT        &kp HASH       &kp DLLR   &kp PRCN     &kp FSLH  &kp N7  &kp N8  &kp N9    &kp SEMI
-   &kp RGUI      &kp LALT      &kp LCTRL      &kp LSHFT  &kp AMPS     &kp N0    &kp N4  &kp N5  &kp N6    &kp MINUS
+   &kp LGUI      &kp LALT      &kp LCTRL      &kp LSHFT  &kp AMPS     &kp N0    &kp N4  &kp N5  &kp N6    &kp MINUS
    &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1   &none      &kp PSCRN    &kp DOT   &kp N1  &kp N2  &kp N3    &kp EQUAL 
                             &trans   &trans   &trans        &trans   &trans   &trans
                         >;
@@ -85,7 +85,7 @@
    &kp LBRC    &kp AMPS    &kp ASTRK   &kp LPAR    &kp RBRC        &kp CARET  &kp AMPS   &kp KP_MULTIPLY &kp LPAR &kp RPAR
    &kp RGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &kp PLUS        &kp MINUS  &kp LEFT   &kp UP          &kp DOWN &kp RIGHT
    &kp TILDE   &kp EXCL    &kp AT      &kp HASH    &kp PIPE        &kp PLUS   &kp HOME   &kp END         &kp PG_UP  &kp PG_DN
-                                  &trans   &trans   &trans        &trans   &trans   &trans
+                                &trans   &trans   &trans        &trans   &trans   &trans
                         >;
                 };
 
