@@ -14,7 +14,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 label = "HOMEROW_MODS";
                 #binding-cells = <2>;
-                tapping-term-ms = <200>;
+                tapping-term-ms = <350>;
                 quick_tap_ms = <0>;
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
@@ -53,12 +53,12 @@
 // |  Q  |  W  |  E  |  R  |  T   |   |  Y  |  U   |  I  |  O  |  P  |
 // |  A  |  S  |  D  |  F  |  G   |   |  H  |  J   |  K  |  L  |  ;  |
 // |  Z  |  X  |  C  |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  |
-//             | GUI | NAV | SHFT |   | SPC | SYM  | ALT |
+//             | GUI | NAV | SHFT |   | SPC | SYM  | DEL |
                         bindings = <
-   &kp Q      &kp W      &kp F       &kp P       &kp B   &kp J &kp L        &kp U         &kp Y        &kp SINGLE_QUOTE
-   &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RCTRL E   &hm RALT I   &hm RGUI O
-   &kp Z      &kp X      &kp C       &kp D       &kp V   &kp K &kp H        &kp COMMA     &kp DOT      &kp FSLH
-                      &kp ESC &lt 1 TAB &lt 1 SPACE         &lt 2 BSPC  &lt 2 RET  &kp RALT
+   &kp Q   &kp W      &kp F       &kp P       &kp B         &kp J       &kp L        &kp U         &kp Y        &kp SINGLE_QUOTE
+   &kp A   &hm LALT R &hm LCTRL S &hm LSHFT T &hm LGUI G    &HM RGUIM M &hm RSHFT N  &hm RCTRL E   &hm RALT I   &kp O
+   &kp Z   &kp X      &kp C       &kp D       &kp V         &kp K       &kp H        &kp COMMA     &kp DOT      &kp FSLH
+                      &kp ESC &lt 1 TAB &lt 1 SPACE         &lt 2 BSPC  &lt 2 RET  &kp DEL
                         >;
                 };
 
