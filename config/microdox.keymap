@@ -29,8 +29,8 @@
                         bindings = <&kp ESC>;
                 };
                 combo_bksp {
-                        timeout-ms = <75>;
-                        key-positions = <8 9>;
+                        timeout-ms = <125>;
+                        key-positions = <7 8>;
                         bindings = <&kp BSPC>;
                 };
                 combo_entr {
@@ -58,7 +58,7 @@
    &kp Q   &kp W      &kp F       &kp P       &kp B      &kp J  &kp L        &kp U         &kp Y        &kp SINGLE_QUOTE
    &kp A   &hm LALT R &hm LCTRL S &hm LSHFT T &kp G      &kp M  &hm RSHFT N  &hm RCTRL E   &hm RALT I   &kp O
    &kp Z   &kp X      &kp C       &kp D       &kp V      &kp K  &kp H        &kp COMMA     &kp DOT      &kp FSLH
-                      &kp LGUI &lt 1 TAB &lt 1 SPACE         &lt 2 BSPC  &lt 2 RET  &kp DEL
+                      &kp LGUI &lt 1 SPACE &lt 1 SPACE         &lt 2 RET &lt 2 BSPC &kp DEL
                         >;
                 };
 
