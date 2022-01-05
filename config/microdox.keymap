@@ -83,9 +83,9 @@
 // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp LBRC    &kp AMPS    &kp ASTRK   &kp LPAR    &kp RBRC        &kp CARET  &kp AMPS   &kp KP_MULTIPLY &kp LPAR &kp RPAR
-   &kp RGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &kp PLUS        &kp MINUS  &kp LEFT   &kp UP          &kp DOWN &kp RIGHT
-   &kp TILDE   &kp EXCL    &kp AT      &kp HASH    &kp PIPE        &kp PLUS   &kp HOME   &kp END         &kp PG_UP  &kp PG_DN
+   &kp LBRC    &kp AMPS    &kp ASTRK   &kp LPAR    &kp RBRC        &kp CARET  &kp AMPS   &kp KP_MULTIPLY &kp LPAR  &kp RPAR
+   &kp RGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &kp PLUS        &kp MINUS  &kp LEFT   &kp UP          &kp DOWN  &kp RIGHT
+   &kp TILDE   &kp EXCL    &kp AT      &kp HASH    &kp PIPE        &kp PLUS   &kp HOME   &kp PG_UP       &kp PG_DN &kp END
                                 &trans   &trans   &trans        &trans   &trans   &trans
                         >;
                 };
