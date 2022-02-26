@@ -14,7 +14,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 label = "HOMEROW_MODS";
                 #binding-cells = <2>;
-                tapping-term-ms = <350>;
+                tapping-term-ms = <250>;
                 quick_tap_ms = <0>;
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
@@ -55,10 +55,10 @@
 // |  Z  |  X  |  C  |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  |
 //             | GUI | NAV | SHFT |   | SPC | SYM  | DEL |
                         bindings = <
-   &kp Q   &kp W      &kp F       &kp P       &kp B      &kp J  &kp L        &kp U         &kp Y        &kp SINGLE_QUOTE
-   &kp A   &hm LALT R &hm LCTRL S &hm LSHFT T &kp G      &kp M  &hm RSHFT N  &hm RCTRL E   &hm RALT I   &kp O
-   &kp Z   &kp X      &kp C       &kp D       &kp V      &kp K  &kp H        &kp COMMA     &kp DOT      &kp FSLH
-                      &kp LGUI &kp LSHFT &lt 1 SPACE          &lt 2 BSPC &lt 2 RET &kp DEL
+   &kp Q   &kp W    &kp F       &kp P       &kp B      &kp J  &kp L        &kp U         &kp Y      &kp SINGLE_QUOTE
+   &kp A   &kp R    &hm LCTRL S &hm LSHFT T &kp G      &kp M  &hm RSHFT N  &hm RCTRL E   &kp I      &kp O
+   &kp Z   &kp X    &kp C       &kp D       &kp V      &kp K  &kp H        &kp COMMA     &kp DOT    &kp FSLH
+                    &kp LGUI &kp LSHFT &lt 1 SPACE          &lt 2 BSPC &lt 2 RET &kp DEL
                         >;
                 };
 
